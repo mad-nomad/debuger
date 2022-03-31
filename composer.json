@@ -1,16 +1,16 @@
 {
-    "name": "east-barbarian/debuger",
+    "name": "mad-nomad/debuger",
     "description": "best of the best debuger",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "east-barbarian"
+            "name": "mad-nomad"
         }
     ],
     "autoload": {
         "psr-4": {
-            "eastbarbarian\\debuger": "src/"
+            "MadNomad\\debuger\\": "src/"
         }
     },
     "minimum-stability": "stable",

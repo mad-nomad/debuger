@@ -1,5 +1,5 @@
 <?php
-namespace eastbarbarian\debuger;
+namespace MadNomad\debuger;
 
 /**
  * zaglushka

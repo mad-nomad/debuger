@@ -1,5 +1,5 @@
 <?php
-namespace eastbarbarian\debuger;
+namespace MadNomad\debuger;
 /*
  * перехватываемые ошибки (ловятся функцией set_error_handler())
  */
