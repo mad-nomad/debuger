@@ -1,0 +1,18 @@
+{
+    "name": "east-barbarian/debuger",
+    "description": "best of the best debuger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "east-barbarian"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "eastbarbarian\\debuger": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
