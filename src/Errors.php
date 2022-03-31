@@ -1,5 +1,19 @@
 <?php
 namespace MadNomad\debuger;
+class Errors{
+    public static function e($errorType){
+        switch ($errorType){
+            case 'fatal' :
+                 echo undefined_function();;
+                 break;
+            case 'notice' :
+                echo $undefined_var;
+                break;
+            default:
+                'supported arguments: fatal, notice';
+        }
+    }
+}
 /*
  * перехватываемые ошибки (ловятся функцией set_error_handler())
  */
